@@ -8,11 +8,6 @@ async def web_server():
     return web_app
 
 
-
-
-
-# Jishu Developer 
+# Jishu Developer
 # Don't Remove Credit 🥺
 # Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
