@@ -1,0 +1,32 @@
+services:
+  - type: worker
+    name: file-sharing-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: CHANNEL_ID
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: DB_URL
+        sync: false
+      - key: DB_NAME
+        value: madflixbotz
+      - key: PORT
+        value: "8080"
+      - key: TG_BOT_WORKERS
+        value: "4"
+      - key: FORCE_SUB_CHANNEL
+        value: "0"
+      - key: FILE_AUTO_DELETE
+        value: "600"
+      - key: PROTECT_CONTENT
+        value: "False"
+      - key: DISABLE_CHANNEL_BUTTON
+        value: "True"
